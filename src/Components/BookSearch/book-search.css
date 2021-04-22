@@ -1,0 +1,72 @@
+.serach {
+    display: flex;
+    box-shadow: 0px 0px 14px -4px #90c8f4;
+    border-radius: 20px;
+    max-width: 600px;
+    width: 100%;
+    height: 30px;
+    margin: 30px auto 0;
+    overflow: hidden;
+}
+
+.serach__input {
+    height: 100%;
+    max-width: 450px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0 40px;
+    border-radius: 15px;
+}
+
+.serach__btn {
+    outline: none;
+    text-align: center;
+    border: none;
+    background-color: #1900ff41;
+    max-width: 150px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.serach__btn:active {
+    background-color: #c4befa41;
+    color: #1900ff41;
+}
+
+.serach__clear-btn {
+    width: 40px;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.serach__clear-inner {
+    position: absolute;
+    top: 14px;
+    left: 0px;
+    width: 15px;
+    height: 2px;
+    border-radius: 5px;
+    background-color: black;
+    transform: rotate(45deg);
+    z-index: 2;
+
+
+}
+
+.serach__clear-inner::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    width: 15px;
+    height: 2px;
+    background-color: black;
+    transform: rotate(90deg);
+    z-index: 2;
+}
+
+

@@ -1,0 +1,65 @@
+.book-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    height: 100%;
+    margin: 30px auto 15px;
+}
+
+.book-list__table {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+}
+
+.book-list__pagination {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.book-list__prev {
+    padding: 5px; 
+    outline: none;
+    text-align: center;
+    border: none;
+    background-color: #1900ff41;
+    max-width: 150px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-right: 2px;
+}
+
+.book-list__prev:active {
+    background-color: #c4befa41;
+    color: #1900ff41;
+}
+
+.book-list__next {   
+    padding: 5px; 
+    outline: none;
+    text-align: center;
+    border: none;
+    background-color: #1900ff41;
+    max-width: 150px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: 2px;
+}
+
+.book-list__next:active {
+    background-color: #c4befa41;
+    color: #1900ff41;
+}
